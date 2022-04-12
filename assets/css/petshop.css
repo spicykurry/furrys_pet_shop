@@ -5,4 +5,30 @@
     background-position: center center;
     background-repeat: no-repeat;
   }
+
+  .login{
+  width: 400px;
+  margin: auto;
+  padding: 25px 50px 50px 50px;
+  border: 1px solid black;
+
+  }
     
+h1{
+  text-align:center;
+}
+
+.createAccount{
+  text-align: center;
+}
+
+#accountRegistration{
+  text-align: center;
+  list-style-position: inside;
+  padding: 25px 50px 50px 50px;
+
+}
+
+.row{
+  padding: 10px;
+}
