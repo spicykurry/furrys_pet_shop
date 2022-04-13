@@ -86,7 +86,25 @@
             <div class="card-body">
               <h5 class="card-title">Cat Stuff</h5>
               <p class="card-text">Click here to see what we have available for cats!</p>
-              <a href="products.html" class="btn btn-primary">Shop Now!</a>
+              <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Shop Now!</button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Oops!</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            We're sorry - we don't have anything for sale for cats right now. Please check back later.
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
             </div>
           </div>
         </div>
