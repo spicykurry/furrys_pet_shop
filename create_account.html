@@ -9,6 +9,35 @@
     <link href="assets/css/petshop.css" rel="stylesheet">
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+              <img src="assets/images/pawprint.png" width="30" height="30" class="d-inline-block align-top" alt="paw print logo">
+              Furry's Pet Shop</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="products.html">Products</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="login.html">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="cart.html">Cart</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     <h1>Account Registration</h1>
     <div id="accountRegistration">The following information is needed in order to create an account:
         <ul>
@@ -18,28 +47,100 @@
             <li>Password</li>
             <li>Address</li>
         </ul>
-        <div class="row">
-            <div class="col">
-              <input type="text" class="form-control" required placeholder="First name" aria-label="First name">
+           <form action="index.html"> 
+            <div class="row">
+                <div class="col">
+                <input type="text" class="form-control" required placeholder="First name" aria-label="First name">
+                </div>
+                <div class="col">
+                <input type="text" class="form-control" required placeholder="Last name" aria-label="Last name">
+                </div>
             </div>
-            <div class="col">
-              <input type="text" class="form-control" required placeholder="Last name" aria-label="Last name">
+            <div class="row">
+                <div class="col">
+                <input type="email" class="form-control" required placeholder="Email" aria-label="Email">
+                </div>
+                <div class="col">
+                <input type="password" class="form-control" required placeholder="Password" aria-label="Password">
+                </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col">
-              <input type="email" class="form-control" required placeholder="Email" aria-label="Email">
+            <div class="row">
+                <div class="col">
+                <input type="text" class="form-control" required placeholder="Street Address" aria-label="Address">
+                </div>
+                <div class="col">
+                <input type="text" class="form-control" required placeholder="City" aria-label="City">
+                </div>
             </div>
-            <div class="col">
-              <input type="password" class="form-control" required placeholder="Password" aria-label="Password">
+
+            <div class="row">
+                <div class="col">
+                    <select class="form-select" aria-label="State">
+                        <option selected>State</option>
+                        <option value="Alabama">Alabama</option>
+                        <option value="Alaska">Alaska</option>
+                        <option value="Arizona">Arizona</option>
+                        <option value="Arkansas">Arkansas</option>
+                        <option value="California">California</option>
+                        <option value="Colorado">Colorado</option>
+                        <option value="Connecticut">Connecticut</option>
+                        <option value="Delaware">Delaware</option>
+                        <option value="Florida">Florida</option>
+                        <option value="Georgia">Georgia</option>
+                        <option value="Hawaii">Hawaii</option>
+                        <option value="Idaho">Idaho</option>
+                        <option value="Illinois">Illinois</option>
+                        <option value="Indiana">Indiana</option>
+                        <option value="Iowa">Iowa</option>
+                        <option value="Kansas">Kansas</option>
+                        <option value="Kentucky">Kentucky</option>
+                        <option value="Louisana">Louisana</option>
+                        <option value="Maine">Maine</option>
+                        <option value="Maryland">Maryland</option>
+                        <option value="Massachusetts">Massachusetts</option>
+                        <option value="Michigan">Michigan</option>
+                        <option value="Minnesota">Minnesota</option>
+                        <option value="Mississippi">Mississippi</option>
+                        <option value="Missouri">Missouri</option>
+                        <option value="Montana">Montana</option>
+                        <option value="Nebraska">Nebraska</option>
+                        <option value="Nevada">Nevada</option>
+                        <option value="New Hampshire">New Hampshire</option>
+                        <option value="New Jersey">New Jersey</option>
+                        <option value="New Mexico">New Mexico</option>
+                        <option value="New York">New York</option>
+                        <option value="North Carolina">North Carolina</option>
+                        <option value="North Dakota">North Dakota</option>
+                        <option value="Ohio">Ohio</option>
+                        <option value="Oklahoma">Oklahoma</option>
+                        <option value="Oregon">Oregon</option>
+                        <option value="Pennsylvania">Pennsylvania</option>
+                        <option value="Rhode Island">Rhode Island</option>
+                        <option value="South Carolina">South Carolina</option>
+                        <option value="South Dakota">South Dakota</option>
+                        <option value="Tennessee">Tennessee</option>
+                        <option value="Texas">Texas</option>
+                        <option value="Utah">Utah</option>
+                        <option value="Vermont">Vermont</option>
+                        <option value="Virginia">Virginia</option>
+                        <option value="Washington">Washington</option>
+                        <option value="West Virginia">West Virgina</option>
+                        <option value="Wisconsin">Wisconsin</option>
+                        <option value="Wyoming">Wyoming</option>
+                    </select>
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" required placeholder="Zip Code" aria-label="Zip Code"> <br/>
+                </div>
+                <button type="submit" class="btn btn-primary" href="index.html">Create Account</button>
             </div>
-        </div>
-    
-    
+        </form>
     </div>
 
     
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" 
+    crossorigin="anonymous"></script>
 </body>
 </html>
