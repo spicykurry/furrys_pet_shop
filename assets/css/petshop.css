@@ -46,7 +46,15 @@ h1{
   .card{
     height: 100%; 
     margin-bottom: 10px;
-  }
+   }
+
+   .product_card{
+    margin-left:3em;
+    margin-right:3em;
+    margin-bottom: 10px;
+    height:100%;
+    border: 1px solid black;
+   }
 
   .card-body {
     display: flex;
