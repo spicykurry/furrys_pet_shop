@@ -63,7 +63,7 @@ h1{
  footer {
   padding: 3px;
   background-color: DarkSalmon;
-  color: white;
+  color: wheat;
   font-size: smaller;
 }
 
@@ -71,6 +71,7 @@ h1{
   display: flex;
   justify-content: space-between;
 }
+
 
 
 
