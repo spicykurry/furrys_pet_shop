@@ -1,73 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Furry's Pet Shop Login</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link href="assets/css/petshop.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Furry's Pet Shop Login</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link href="assets/css/petshop.css" rel="stylesheet">
 </head>
+
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:darksalmon">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="index.html">
-              <img src="assets/images/pawprint.png" width="30" height="30" class="d-inline-block align-top" alt="paw print logo">
-              Furry's Pet Shop</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="products.html">Products</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="login.html">Login</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="cart.html">Cart</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-      
-      <div class="login">
-        <form action="index.html">
-            <div class="form-group">
-                <h1>Login</h1>
-                <label for="userNameInput">Email</label>
-                <input type="email" class="form-control" id="userEmailInput" required>
-            </div>
-            <div class="form-group">
-                <label for="passwordInput">Password</label>
-                <input type="password" class="form-control form-control-lg" id="passwordInput">
-            </div>
-            <div class="form-group form-check">
-                <input type="checkbox" class="form-check-input" id="rememberMeCheck">
-                <label class="form-check-label form-control-sm" for="rememberMeCheck">Remember me</label>
-            </div>
-            <button type="submit" class="btn btn-primary">Log in</button>
-        </form>
-    </div>
-    <div class="createAccount">
-        <h2>No Account? <a href="create_account.html">Sign-Up!</a></h2>
-    </div>
-    
-    <footer class="fixed-bottom">
-      <div id="author">
-        <span>Copyright © 2022 Furry's Pet Shop</span> 
-        <span>Author: Kara Imhof (with the moral support of her best friend Freddy).</span>
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">
+        <img src="assets/images/pawprint.png" width="30" height="30" class="d-inline-block align-top"
+          alt="paw print logo">
+        Furry's Pet Shop</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="products.html">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="login.html">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="cart.html">Cart</a>
+          </li>
+        </ul>
       </div>
-    </footer>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </div>
+  </nav>
+
+  <div class="login">
+    <form action="index.html">
+      <div class="form-group">
+        <h1>Login</h1>
+        <label for="userNameInput">Email</label>
+        <input type="email" class="form-control" id="userEmailInput" required>
+      </div>
+      <div class="form-group">
+        <label for="passwordInput">Password</label>
+        <input type="password" class="form-control form-control-lg" id="passwordInput">
+      </div>
+      <div class="form-group form-check">
+        <input type="checkbox" class="form-check-input" id="rememberMeCheck">
+        <label class="form-check-label form-control-sm" for="rememberMeCheck">Remember me</label>
+      </div>
+      <button type="submit" class="btn btn-primary">Log in</button>
+    </form>
+  </div>
+  <div class="createAccount">
+    <h2>No Account? <a href="create_account.html">Sign-Up!</a></h2>
+  </div>
+
+  <footer class="fixed-bottom">
+    <div id="author">
+      <span>Copyright © 2022 Furry's Pet Shop</span>
+      <span>Author: Kara Imhof (with the moral support of her best friend Freddy).</span>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
